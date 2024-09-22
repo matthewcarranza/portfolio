@@ -1,0 +1,75 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    background-color: #2c3e50;
+    padding-top: 20px;
+    transition: width 0.3s;
+}
+
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 16px;
+}
+
+.sidebar a:hover, .sidebar a.active {
+    background-color: #2980b9;
+}
+
+/* Topbar */
+.topbar {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-left: 260px;
+}
+
+.topbar-right {
+    display: flex;
+    gap: 15px;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 70px;
+    padding-left: 260px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 60px;
+    }
+
+    .sidebar a {
+        font-size: 0;
+    }
+
+    .main-content {
+        padding-left: 80px;
+    }
+
+    .topbar {
+        padding-left: 80px;
+    }
+}
