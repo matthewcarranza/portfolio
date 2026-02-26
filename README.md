@@ -79,14 +79,6 @@ Expected: May 2026
 - Power BI (DAX, Power Query)  
 - Tableau (dashboards, parameters, filters)  
 
-### Core Competencies
-- Data Validation & QA  
-- KPI Reporting  
-- Dashboard Design  
-- Reporting Automation  
-- Stakeholder Communication  
-- Business Performance Analysis  
-
 ***
 
 ## 📫 Contact
